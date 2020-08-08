@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="42">
+      <Unit0>
+        <Filename Value="CDRRec.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="10"/>
+        <CursorPos X="16" Y="12"/>
+        <UsageCount Value="315"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="classes\udataworker.pas"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="184"/>
+        <CursorPos X="82" Y="186"/>
+        <UsageCount Value="315"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="classes\uconnector.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="23"/>
+        <TopLine Value="263"/>
+        <CursorPos X="28" Y="266"/>
+        <UsageCount Value="315"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="3rdparty\synapse\blcksock.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="25"/>
+        <TopLine Value="476"/>
+        <CursorPos X="14" Y="488"/>
+        <UsageCount Value="315"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="3rdparty\lape\lptypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="65"/>
+        <UsageCount Value="311"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="classes\ulpclasshelper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="74" Y="8"/>
+        <UsageCount Value="311"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="3rdparty\lape\extensions\ffi\ffi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="154"/>
+        <CursorPos X="16" Y="465"/>
+        <UsageCount Value="310"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="classes\ulpclasses.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="11"/>
+        <UsageCount Value="310"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="classes\imports\lptobject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lpTObject"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="44" Y="8"/>
+        <UsageCount Value="310"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="classes\imports\lpxml.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="38" Y="17"/>
+        <UsageCount Value="309"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="classes\uxml.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="28"/>
+        <UsageCount Value="309"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="classes\ulptypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="60" Y="38"/>
+        <UsageCount Value="276"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="forms\umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="50"/>
+        <CursorPos X="35" Y="101"/>
+        <UsageCount Value="276"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="classes\udataexporter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="185"/>
+        <CursorPos X="21" Y="193"/>
+        <UsageCount Value="261"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="classes\udatadumper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="11" Y="34"/>
+        <UsageCount Value="258"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="forms\usettingform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SettingsFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="16"/>
+        <TopLine Value="55"/>
+        <CursorPos Y="58"/>
+        <UsageCount Value="254"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="classes\usettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="18"/>
+        <TopLine Value="363"/>
+        <CursorPos X="47" Y="368"/>
+        <UsageCount Value="243"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="forms\serialcfgform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ComSetupFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="20"/>
+        <CursorPos X="57" Y="57"/>
+        <UsageCount Value="211"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="forms\tcpipcfgform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TCPIPForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="21"/>
+        <CursorPos X="7" Y="9"/>
+        <UsageCount Value="296"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="classes\uiptools.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="148"/>
+        <CursorPos X="11" Y="13"/>
+        <UsageCount Value="296"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="forms\urlipccfgform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="RulIpcForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="22"/>
+        <TopLine Value="7"/>
+        <CursorPos X="33" Y="51"/>
+        <UsageCount Value="295"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="classes\ucommandlist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="109"/>
+        <CursorPos X="38" Y="132"/>
+        <UsageCount Value="307"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="forms\uabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="72"/>
+        <CursorPos X="13" Y="79"/>
+        <UsageCount Value="303"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="classes\uversionsupport.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="42"/>
+        <CursorPos X="14" Y="56"/>
+        <UsageCount Value="299"/>
+        <Loaded Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="classes\imports\lpjson.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="570"/>
+        <CursorPos X="40" Y="12"/>
+        <UsageCount Value="118"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="forms\ucmdfrm.pas"/>
+        <ComponentName Value="CmdForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="15"/>
+        <TopLine Value="23"/>
+        <CursorPos X="3" Y="38"/>
+        <UsageCount Value="104"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="classes\uconfig.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="45" Y="109"/>
+        <UsageCount Value="73"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="forms\cfgeditor.pas"/>
+        <ComponentName Value="CfgFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="39" Y="74"/>
+        <UsageCount Value="66"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="classes\uother.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="106"/>
+        <CursorPos X="3" Y="27"/>
+        <UsageCount Value="101"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="classes\ujson.pas"/>
+        <EditorIndex Value="19"/>
+        <TopLine Value="501"/>
+        <CursorPos Y="517"/>
+        <UsageCount Value="124"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="3rdparty\synapse\synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="846"/>
+        <CursorPos X="3" Y="881"/>
+        <UsageCount Value="60"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="classes\umultilang.pas"/>
+        <EditorIndex Value="17"/>
+        <TopLine Value="646"/>
+        <CursorPos X="14" Y="657"/>
+        <UsageCount Value="131"/>
+        <Loaded Value="True"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="C:\lazarus\lcl\lclintf.pas"/>
+        <UnitName Value="LCLIntf"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="43"/>
+        <UsageCount Value="149"/>
+        <Loaded Value="True"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="classes\utelnetclient.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="22"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="3rdparty\synapse\tlntsend.pas"/>
+        <EditorIndex Value="24"/>
+        <TopLine Value="335"/>
+        <CursorPos X="3" Y="360"/>
+        <UsageCount Value="131"/>
+        <Loaded Value="True"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="3rdparty\lape\lpinterpreter.pas"/>
+        <EditorIndex Value="12"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="130"/>
+        <Loaded Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="3rdparty\lape\extensions\ffi\lpffiwrappers.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="945"/>
+        <CursorPos Y="960"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="3rdparty\lape\lpeval_functions.inc"/>
+        <EditorIndex Value="13"/>
+        <CursorPos X="29" Y="2853"/>
+        <UsageCount Value="128"/>
+        <Loaded Value="True"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="classes\uplugins.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="36"/>
+        <CursorPos X="3" Y="54"/>
+        <UsageCount Value="255"/>
+        <Loaded Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-stl\src\gvector.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="200"/>
+        <CursorPos X="3" Y="203"/>
+        <UsageCount Value="3"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\systemh.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="96"/>
+        <CursorPos X="3" Y="111"/>
+        <UsageCount Value="105"/>
+        <Loaded Value="True"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="3rdparty\lape\lpcompiler.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1082"/>
+        <CursorPos Y="1111"/>
+        <UsageCount Value="101"/>
+        <Loaded Value="True"/>
+      </Unit41>
+    </Units>
+    <JumpHistory Count="27" HistoryIndex="26">
+      <Position1>
+        <Filename Value="classes\uplugins.pas"/>
+        <Caret Line="269" Column="5" TopLine="287"/>
+      </Position1>
+      <Position2>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="257" TopLine="242"/>
+      </Position2>
+      <Position3>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="258" TopLine="242"/>
+      </Position3>
+      <Position4>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="259" TopLine="242"/>
+      </Position4>
+      <Position5>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="261" TopLine="242"/>
+      </Position5>
+      <Position6>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="270" TopLine="246"/>
+      </Position6>
+      <Position7>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="274" TopLine="250"/>
+      </Position7>
+      <Position8>
+        <Filename Value="3rdparty\lape\lpcompiler.pas"/>
+        <Caret Line="1111" TopLine="1082"/>
+      </Position8>
+      <Position9>
+        <Filename Value="classes\uplugins.pas"/>
+        <Caret Line="368" Column="9" TopLine="496"/>
+      </Position9>
+      <Position10>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="89" Column="38" TopLine="69"/>
+      </Position10>
+      <Position11>
+        <Filename Value="3rdparty\lape\extensions\ffi\lpffiwrappers.pas"/>
+        <Caret Line="960" TopLine="945"/>
+      </Position11>
+      <Position12>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="229" Column="3" TopLine="204"/>
+      </Position12>
+      <Position13>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="113" Column="5" TopLine="260"/>
+      </Position13>
+      <Position14>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="31" Column="22" TopLine="21"/>
+      </Position14>
+      <Position15>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="333" Column="17" TopLine="305"/>
+      </Position15>
+      <Position16>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="19" Column="5" TopLine="4"/>
+      </Position16>
+      <Position17>
+        <Filename Value="classes\uconnector.pas"/>
+        <Caret Line="69" Column="17" TopLine="43"/>
+      </Position17>
+      <Position18>
+        <Filename Value="classes\uconnector.pas"/>
+        <Caret Line="330" Column="3" TopLine="328"/>
+      </Position18>
+      <Position19>
+        <Filename Value="classes\uconnector.pas"/>
+        <Caret Line="100" Column="20" TopLine="81"/>
+      </Position19>
+      <Position20>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="264" Column="54" TopLine="243"/>
+      </Position20>
+      <Position21>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="239" Column="3" TopLine="224"/>
+      </Position21>
+      <Position22>
+        <Filename Value="forms\usettingform.pas"/>
+        <Caret Line="155" Column="6" TopLine="134"/>
+      </Position22>
+      <Position23>
+        <Filename Value="forms\usettingform.pas"/>
+        <Caret Line="156" Column="6" TopLine="135"/>
+      </Position23>
+      <Position24>
+        <Filename Value="classes\usettings.pas"/>
+        <Caret Line="158" Column="45" TopLine="142"/>
+      </Position24>
+      <Position25>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="29" Column="38" TopLine="27"/>
+      </Position25>
+      <Position26>
+        <Filename Value="classes\udataworker.pas"/>
+        <Caret Line="186" Column="82" TopLine="184"/>
+      </Position26>
+      <Position27>
+        <Filename Value="forms\tcpipcfgform.pas"/>
+        <Caret Line="9" Column="7"/>
+      </Position27>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language Mail="CynicRus@gmail.com" Name="Русский" Author="Cynic" CreationDate="1566561457" ModifiedDate="1566561457">
+<Form Name="MainForm" Caption="CDR Recorder">
+    <Section Name="TGroupBox">
+      <GroupBox1 Hint="" Caption="Информация:"/>
+    </Section>
+    <Section Name="TMemo">
+      <LogMemo Hint="" Caption=""/>
+    </Section>
+    <Section Name="TToolBar">
+      <ToolBar1 Hint="" Caption="ToolBar1"/>
+    </Section>
+    <Section Name="TToolButton">
+      <ToolButton1 Hint="Открыть\закрыть порт" Caption="ToolButton1"/>
+      <ToolButton2 Hint="" Caption="ToolButton2"/>
+      <ToolButton3 Hint="Отправить команду" Caption="ToolButton3"/>
+      <ToolButton4 Hint="Команды активации КС" Caption="ToolButton4"/>
+      <ToolButton5 Hint="" Caption="ToolButton5"/>
+      <ToolButton6 Hint="Настройки" Caption="ToolButton6"/>
+      <ToolButton7 Hint="" Caption="ToolButton7"/>
+      <ToolButton8 Hint="О программе" Caption="ToolButton8"/>
+    </Section>
+    <Section Name="TStatusBar">
+      <StatusBar1 Hint="" Caption=""/>
+    </Section>
+    <Section Name="TMainMenu">
+      <MainMenu1 Hint="" Caption=""/>
+    </Section>
+    <Section Name="TMenuItem">
+      <AppMenuItem Hint="" Caption="Файл"/>
+      <ConnectMenuItem Hint="" Caption="Открыть порт"/>
+      <MenuSeparator Hint="" Caption="-"/>
+      <ExitMenu Hint="" Caption="Выход"/>
+      <MenuItem1 Hint="" Caption="Параметры"/>
+      <SettingsMenuItem Hint="" Caption="Настройки"/>
+      <MenuItem3 Hint="" Caption="-"/>
+      <MenuItem2 Hint="" Caption="Команды активации КС"/>
+      <MenuItem4 Hint="" Caption="-"/>
+      <MenuItem5 Hint="" Caption="Просмотр событий"/>
+      <MenuItem6 Hint="" Caption="О программе"/>
+    </Section>
+    <Section Name="TImageList">
+      <BtnImg Hint="" Caption=""/>
+    </Section>
+  </Form>
+  <Form Name="CmdForm" Caption="Событийные команды">
+    <Section Name="TButton">
+      <Ok Hint="" Caption="Ок"/>
+      <CancelBtn Hint="" Caption="Отмена"/>
+    </Section>
+    <Section Name="TGroupBox">
+      <AfterConnectingBox Hint="" Caption="После соединения"/>
+      <BeforeDisconnectBox Hint="" Caption="Перед отсоединением"/>
+    </Section>
+    <Section Name="TMemo">
+      <AfterConnectionMemo Hint="" Caption=""/>
+      <BeforeDisconnectionMemo Hint="" Caption=""/>
+    </Section>
+  </Form>
+  <Form Name="SettingsFrm" Caption="Настройки">
+    <Section Name="TGroupBox">
+      <ConnectionGBox Hint="" Caption="Соединение"/>
+      <ExportTypeGBox Hint="" Caption="Экспорт"/>
+      <ScriptSettingsBox Hint="" Caption="Скрипт"/>
+      <LanguageGroupBox Hint="" Caption="Язык"/>
+      <OverallGBox Hint="" Caption="Общие"/>
+    </Section>
+    <Section Name="TLabel">
+      <ConnectionTypeLbl Hint="" Caption="Тип соединения"/>
+      <ExportTypeLbl Hint="" Caption="Канал экспорта"/>
+      <ScriptBoxLbl Hint="" Caption="Выбор скрипта"/>
+	  <idRecorderLbl Hint="" Caption="Идентификатор"/>
+    </Section>
+    <Section Name="TComboBox">
+      <ConnectionTypeBox Data="TCP/IP&#xD;&#xA;RS-232&#xD;&#xA;Telnet&#xD;&#xA;" Hint="" Caption=""/>
+      <ExportTypeBox Data="TCP/IP&#xD;&#xA;URL&#xD;&#xA;IPC&#xD;&#xA;" Hint="" Caption=""/>
+      <ScriptBox Hint="" Caption=""/>
+      <LanguageBox Hint="" Caption=""/>
+    </Section>
+    <Section Name="TButton">
+      <ConnSettingsBtn Hint="" Caption="Настроить"/>
+      <ExportSettingsBtn Hint="" Caption="Настроить"/>
+      <SetScriptBtn Hint="" Caption="Выбрать"/>
+      <okBtn Hint="" Caption="Ок"/>
+      <cnclBtn Hint="" Caption="Отмена"/>
+    </Section>
+    <Section Name="TCheckBox">
+      <InbuiltDumper Hint="" Caption="Встроеный дампер"/>
+    </Section>
+  </Form>
+  <Form Name="ComSetupFrm" Caption="RS-232 Setup">
+    <Section Name="TButton">
+      <Button1 Hint="" Caption="Ok"/>
+      <Button2 Hint="" Caption="Cancel"/>
+    </Section>
+    <Section Name="TGroupBox">
+      <GroupBox1 Hint="" Caption=" Settings "/>
+    </Section>
+    <Section Name="TLabel">
+      <Label1 Hint="" Caption="Port"/>
+      <Label2 Hint="" Caption="Baud rate"/>
+      <Label3 Hint="" Caption="Data bits"/>
+      <Label4 Hint="" Caption="Stop bits"/>
+      <Label5 Hint="" Caption="Parity"/>
+      <Label6 Hint="" Caption="Flow control"/>
+    </Section>
+    <Section Name="TComboBox">
+      <ComComboBox1 Data="COM3&#xD;&#xA;COM1&#xD;&#xA;COM7&#xD;&#xA;" Hint="" Caption=""/>
+      <ComComboBox2 Data="110&#xD;&#xA;300&#xD;&#xA;600&#xD;&#xA;1200&#xD;&#xA;2400&#xD;&#xA;4800&#xD;&#xA;9600&#xD;&#xA;14400&#xD;&#xA;19200&#xD;&#xA;38400&#xD;&#xA;56000&#xD;&#xA;57600&#xD;&#xA;115200&#xD;&#xA;128000&#xD;&#xA;230400&#xD;&#xA;256000&#xD;&#xA;460800&#xD;&#xA;921600&#xD;&#xA;" Hint="" Caption=""/>
+      <ComComboBox3 Data="8&#xD;&#xA;7&#xD;&#xA;6&#xD;&#xA;5&#xD;&#xA;" Hint="" Caption=""/>
+      <ComComboBox4 Data="1&#xD;&#xA;1.5&#xD;&#xA;2&#xD;&#xA;" Hint="" Caption=""/>
+      <ComComboBox5 Data="N&#xD;&#xA;O&#xD;&#xA;E&#xD;&#xA;M&#xD;&#xA;S&#xD;&#xA;" Hint="" Caption=""/>
+      <ComComboBox6 Data="None&#xD;&#xA;Software&#xD;&#xA;HardWare&#xD;&#xA;" Hint="" Caption=""/>
+    </Section>
+  </Form>
+  <Form Name="TCPIPForm" Caption="TCPIP Setup">
+    <Section Name="TLabel">
+      <IpAddrLbl Hint="" Caption="IP"/>
+      <PortLbl Hint="" Caption="Port"/>
+    </Section>
+    <Section Name="TSpinEdit">
+      <PortEdt Hint="" Caption=""/>
+    </Section>
+    <Section Name="TButton">
+      <okBtn Hint="" Caption="Ok"/>
+    </Section>
+    <Section Name="TEdit">
+      <ipAddrEdit Hint="" Caption=""/>
+    </Section>
+    <Section Name="TCheckBox">
+      <KeepConnectionBox Hint="" Caption="Сохранять соединение"/>
+    </Section>
+  </Form>
+  <Form Name="RulIpcForm" Caption="URL\IPC Setup">
+    <Section Name="TLabel">
+      <textLbl Hint="" Caption="URL\IPC"/>
+    </Section>
+    <Section Name="TEdit">
+      <textEdt Hint="" Caption=""/>
+    </Section>
+    <Section Name="TButton">
+      <okBtn Hint="" Caption="Ok"/>
+    </Section>
+  </Form>
+</Language>
